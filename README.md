@@ -21,6 +21,12 @@ Transforms an image's background using Stable Diffusion XL and inpainting. It ut
 ### change_bg_outpaint
 Expands the background of an image using Stable Diffusion XL with a control net, generating a new image with a plain background and blending it with the original.
 
+### overlay_red_mask
+Overlays a red mask on the input image where the mask indicates the presence of an object.
+
+### get_prod_masks
+Combines object detection and segmentation to produce masks for objects based on a text prompt using the GroundingDINO and SAM models.
+
 ### Main Class: filter_and_generate_visual
 This class ties all core functions together, managing the entire image processing workflow. It initializes the necessary models and processes input images based on specified prompts to generate stunning visual outputs.
 
