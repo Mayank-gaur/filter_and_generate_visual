@@ -2,6 +2,20 @@
 This project offers an exciting and dynamic image processing pipeline, leveraging the cutting-edge capabilities of models like Stable Diffusion and ControlNet. By seamlessly integrating a range of versatile utility functions, this pipeline provides a delightful and comprehensive solution for several tasks. It allows you to filter objects based on text prompts, generate creative variants of those objects, and ultimately produce stunning photoshoot visuals.
 
 ## Installation
+1. create environment using the yml file
+  conda env create -f environment.yml
+2. clone the repo
+  git clone https://github.com/Mayank-gaur/filter_and_generate_visual.git
+3. Setup DINO: Follow the steps here to install DINO: 
+  https://github.com/IDEA-Research/DINO#installation
+4. Setup SAM: Follow the steps here:
+  https://github.com/facebookresearch/segment-anything#installation
+5. In the projects folder, setup InstantMesh in the same newly created env.
+    https://github.com/TencentARC/InstantMesh?tab=readme-ov-file#%EF%B8%8F-dependencies-and-installation
+6. move contents of above to the projects folder. From the projects folder, run:
+  mv InstantMesh/*  .
+7. Thats it. Setup complete! Check the usage section here to run the project pipeline now.
+
 ## Core Functions
 ### add_padding
 Adds padding to an image to ensure it reaches a specified resolution, centering the image and adding an even border on all sides.
