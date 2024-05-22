@@ -51,10 +51,17 @@ Get Masks: Retrieves masks for products mentioned in the prompts.
 Generate Variants: Iterates through the masks to create variants of the products.
 Crop and Blend: Crops the image and blends it with the mask to isolate the product.
 Add Padding: Ensures consistent resolution by adding padding to cropped images.
-Save Variants: Stores the generated variants and their masks. A 2d to 3d nerf based model is leveraged for this task.
-Generate Visuals: Creates photoshoot visuals with different background colors.
+Save Variants: Stores the generated variants and their masks.InstantMesh is leveraged for this task.
+Generate Visuals: Creates photoshoot visuals with different background colors. controlnet_inpaint_pipeline with ip adapter
+and controlnet_inpaint_pipeline without ip adapter, both results are saved.
 Run Inpainting: Applies inpainting techniques to enhance realism.
 Save Results: Saves the final processed images, ready for use.
+
+## Improvements
+1. Modularize run function
+2. Adjust IP adapter weightage  and prompts weihtage(guidance_scale) to generate more shadows
+3. Support for passing style image option to user.
+
 
 ## Results
 controlnet_inpaint_pipeline with ip adapter
