@@ -55,6 +55,43 @@ Save Variants: Stores the generated variants and their masks. A 2d to 3d nerf ba
 Generate Visuals: Creates photoshoot visuals with different background colors.
 Run Inpainting: Applies inpainting techniques to enhance realism.
 Save Results: Saves the final processed images, ready for use.
+
+## Results
+controlnet_inpaint_pipeline with ip adapter
+
+![2grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/d4455615-65dc-4c56-b7ec-a5515c45a628)
+![1grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/25b46efe-668f-41a6-aaa0-f30248f20798)
+![0grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/ee294bec-9fcf-4b12-a594-b25dee03890d)
+![5grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/c6af08ed-9073-4594-a044-3de38837a04f)
+
+![4grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/9dfe2968-c9fe-431f-b678-c11e3d0cf37e)
+![3grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/4278cc12-d141-4a34-ac18-f1ade027148c)
+![2grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/3ee8a19c-1a79-44aa-8d28-ac82e6ac2d49)
+![1grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/cc0a3159-092b-4c95-bd85-b9cf49e03ca2)
+![0grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/289d74a1-9cf7-494d-aa4e-919b22984d42)
+![5grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/d0044200-18b5-4d9e-a9df-ba920dc881ce)
+
+![4grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/3b82fc55-0da5-4054-b2e9-8fd989db4e00)
+![3grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/50c14a65-351a-4ac0-88d5-c73def431cce)
+![2grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/60310999-f971-46d4-b56c-4217455bbea1)
+![1grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/35e96fbd-40ad-4b79-bacc-701e38f7f258)
+![0grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/de72091f-7468-4fbe-8fe5-a7c838b79065)
+![5grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/712f4167-6bd4-4c37-8ce0-5f8e16e078a0)
+
+
+controlnet_inpaint_pipeline without ip adapter
+![0random_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/f5d36f2c-7590-424c-a3f6-0d7e8a5d566b)
+![5random_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/42f0b3f3-8c00-4979-b499-cea20e89c3b7)
+![3random_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/a470ba8e-1f6b-4a26-96cf-1eb7e2c3f3d9)
+![1random_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/1fb6537f-afa5-4c5d-80b5-31cef7d0dcd2)
+
+![2random_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/18e468cf-2c9e-455c-9ff8-e9afb68846d5)
+![1random_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/7d446079-d65d-4fdc-b4cd-1c4f36c33637)
+![0random_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/8825a6dd-16dc-40c4-871d-3ffa4a8e6d6f)
+![5random_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/bf113801-71ca-4dfc-8874-dba2c124c554)
+![4random_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/251bd526-6906-4f24-a4b2-2aa2beb397c9)
+
+
 ### Usage Example
 Using this pipeline is straightforward. Simply create an instance of the filter_and_generate_visual class, call the run method with the necessary parameters, and watch the magic happen! Ensure the input image path, list of prompts, and save path are correctly specified for optimal results.
 
