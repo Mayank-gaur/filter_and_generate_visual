@@ -64,6 +64,11 @@ Save Results: Saves the final processed images, ready for use.
 
 
 ## Results
+Input image
+![Designer](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/ece94805-3be2-4b47-aa1d-bbcd96367241)
+
+Output of few shoe, perfume and one of the sunglasses in the image is mentioned below
+
 controlnet_inpaint_pipeline with ip adapter
 
 ![2grey_bg](https://github.com/Mayank-gaur/filter_and_generate_visual/assets/56195849/d4455615-65dc-4c56-b7ec-a5515c45a628)
